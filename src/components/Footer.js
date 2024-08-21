@@ -10,7 +10,7 @@ function Footer(){
     return (
         <React.Fragment>
         <footer className='FooterContainer bg-body-tertiary'>
-            <img src={ReactLogo} width={300} height={100}  alt='logo React'/>
+            <img src={ReactLogo} width={150} height={50}  alt='logo React'/>
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div className="col-md-4 d-flex align-items-center">
                     <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">

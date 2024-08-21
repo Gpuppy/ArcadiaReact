@@ -4,6 +4,9 @@ import './styles/header.css';
 import '../components/Arcadia2.png';
 import {Link} from 'react-router-dom';
 import '../components/Accommodation';
+import '../components/Login';
+import '../components/Dashboard';
+
 
 function Header()
 {
@@ -19,12 +22,11 @@ function Header()
                         <Link to="/Accommodation" className="nav-link link-body-emphasis px-2">Habitats</Link>
                         <Link to="/Review"  className="nav-link link-body-emphasis px-2">Avis</Link>
                         <Link to="/Contact" className="nav-link link-body-emphasis px-2">Contact</Link>
+                        <Link to="/Dashboard" className="nav-link link-body-emphasis px-2">Dashboard</Link>
                     </ul>
                     <ul className="nav">
-                        <a className="btn btn-success" href="../login.php" role="button">Admin</a>
-
-
-                    </ul>
+                      <Link to="/Login" className= "btn btn-success ">Admin</Link>
+                     </ul>
                 </div>
             </footer>
     </React.Fragment>
